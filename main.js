@@ -22,7 +22,7 @@ async function apiRequest() {
 
     document.getElementById("alienImage").src = data.image, 
     document.getElementById("alienCaption").innerText = data.speciesName;
-  } catch (error) {
-    console.log(error);
+  } catch(err) {
+    console.log(err);
   }
 }
